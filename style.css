@@ -1,0 +1,482 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+.page {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+body {
+	text-align: left;
+	align-content: center;
+	line-height: 30px;
+	font-family: "Comfortaa", cursive;
+
+}
+
+/*Блок с информацией*/
+.light-theme #rectangle {
+	position: relative;
+	align-content: center;
+	text-align: left;
+	height: auto; /*2400px*/
+	left: 12%;
+	width: 70%;
+	background: white;
+	-moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0.3em 1em #000;
+    padding-left: 80px;
+    padding-right: 80px;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+   	margin-top: 15px; 
+}
+.dark-theme #rectangle {
+	position: relative;
+	align-content: center;
+	text-align: left;
+	height: auto; /*2400px*/
+	left: 12%;
+	width: 70%;
+	background-color: rgb(44,45,47);
+	-moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0.3em 1em #000;
+    padding-left: 80px;
+    padding-right: 80px;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+   	margin-top: 15px; 
+}
+
+/*Верхний и нижний блок с информацией*/
+.light-theme .hat {
+	position: relative;
+	left: 12%;
+	width: 70%;
+	height: 60px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 0.3em 1em #000; 
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+.dark-theme .hat {
+	position: relative;
+	left: 12%;
+	width: 70%;
+	height: 70px;
+	vertical-align: middle;
+	background-color: rgb(44,45,47); 
+	border-radius: 12px;
+	box-shadow: 0 0.3em 1em #000; 
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px; 
+}
+.hat-icon {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 4%;
+}
+/*VK 1*/
+.hat-icon-1 {
+	right: 15px;
+}
+/*VK 2*/
+.hat-icon-2 {
+	right: 66px;
+}
+/*Theme icon in the development*/
+.hat-icon-3 {
+	position: relative;
+	right: 20px;
+}
+.hat-icon:hover{
+	transform: scale(1.3);
+}
+
+/*Навигация в разработке*/
+.light-theme .navigation {
+	position: fixed;
+	width: 18%;
+	left: 61.8%;
+	top: 6.5%;
+	background-color: white;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 0.3em 1em #000;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-right: 10%; 
+}
+.dark-theme .navigation {
+	position: fixed;
+	width: 18%;
+	left: 62%;
+	top: 7.5%;
+	background-color:  rgb(44,45,47);
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 0.3em 1em #000;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.navigation-html {
+	border: 1px;
+	border-radius: 12px;
+}
+
+/*Заготовка для смены тем*/
+.light-theme .font {color: black; font-family: "Comfortaa", cursive;}
+.dark-theme .font {color: lightgrey; font-family: "Comfortaa", cursive;}
+.light-theme {background-color: lightgrey; color: black;}
+.dark-theme {background-color: rgb(25,25,25); color: white;}
+.fixed {position: fixed;}
+
+/*Параметры текста и оглавлений*/
+h1 {
+	text-align: center;
+	font-size: 34px;
+	margin: 10px;
+}
+h2 {
+	font-family: "Comfortaa", cursive;
+	font-size: 28px;
+}
+h3 {
+	font-size: 22px;
+}
+p {
+	font-size: 20px;
+}
+ul {
+	font-size: 20px;
+}
+td {
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+.dark-theme a {
+	color: #FB6652;
+}
+.silki {
+	margin-right: 50px;
+
+}
+.margin-table {
+	margin-right: 200px;
+	line-height: 20px;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+.italic {
+	font-style: italic;
+}
+
+/*Блок с цитатой*/
+.light-theme blockquote {
+	position: relative;
+	padding-right: 100px;
+	margin: 0;
+	background: white;
+	border-top: 5px solid #EAF9F9;
+	border-bottom: 5px solid #EAF9F9;
+	color: #3A3C55;
+	padding: 30px 30px 30px 90px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+.dark-theme blockquote {
+	position: relative;
+	padding-right: 100px;
+	margin: 0;
+	background:  rgb(44,45,47);
+	border-top: 5px solid #EAF9F9;
+	border-bottom: 5px solid #EAF9F9;
+	color: white;
+	padding: 30px 30px 30px 90px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+blockquote:before {
+	content: "\201C";
+	font-family: serif;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	color: white;
+	background: #FB6652;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 50px;
+	line-height: 1.35;
+	text-align: center;
+}
+blockquote p {
+	margin: 0 0 16px;
+	font-size: 22px;
+	letter-spacing: .05em;
+	line-height: 1.4;
+}
+blockquote cite {
+	font-style: normal;
+	font-size: 17px;
+	font-family: "Comfortaa", cursive;
+	text-align: right; 
+}
+
+
+
+/*Стиль картинок*/
+img {
+	text-align: left;
+ 	align-content: left;
+ 	margin: 0;
+ 	margin-top: 12px;
+}
+
+.verical-top {
+	vertical-align: middle;
+}
+
+/*
+img:hover {
+	transform: scale(4) translateX(120px); 
+}
+*/
+
+/*Фигура для картинок*/
+figure {
+    text-align: center;
+}
+figcaption {
+	margin-bottom: 10px;
+}
+.left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+.right{
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+/*Стиль терминов и описаний*/
+dl {
+	font-size: 20px;
+	font-family: "Comfortaa", cursive;
+}
+dt {
+	font-weight: bold;
+	font-size: 22px;
+}
+dd {
+	margin-left: 10px;
+}
+
+/*Стиль навигации*/
+.rounded {
+	counter-reset: li;
+	list-style: none;
+	font-family: "Comfortaa", cursive;
+	padding: 0;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	margin-left: 20px; 
+}
+
+.light-theme .rounded a {
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em 2em;
+	margin: .5em 0;
+	background: #DAD2CA;
+	color: #444;
+	text-decoration: none;
+	border-radius: .3em;
+	transition: .3s ease-out;
+}
+.dark-theme .rounded a {
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em 2em;
+	margin: .5em 0;
+	background: grey;
+	color: white;
+	text-decoration: none;
+	border-radius: .3em;
+	transition: .3s ease-out;
+}
+.light-theme .rounded a:hover {background: #E9E4E0;}
+.dark-theme .rounded a:hover {background: lightgrey;}
+
+.rounded a:hover:before {transform: rotate(360deg);}
+.light-theme .rounded a:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: lightblue;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: .3em solid white;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	transition: all .3s ease-out;
+}
+.dark-theme .rounded a:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: rgb(25,25,25);
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: .3em solid rgb(44,45,47);
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	transition: all .3s ease-out;
+}
+
+/*Стиль списка*/
+.zebra {
+  list-style: none;
+  border-left: 10px solid #FB6652;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.zebra li {padding: 10px;}
+.light-theme .zebra li:nth-child(odd) {background: #E1F1FF;}
+.light-theme .zebra li:nth-child(even) {background: white;}
+.dark-theme .zebra li:nth-child(odd) {background: rgb(25,25,25);}
+.dark-theme .zebra li:nth-child(even) {background:  rgb(44,45,47);}
+
+
+/*In the development, no used*/
+.epic-kartinca img{
+	background-color: #666666;
+	color: white;
+	font-weight: normal;
+	margin-bottom: 150px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.epic-kartinca p{
+	background-color: #666;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+@media screen and (orientation: portrait) and 
+(min-width:1900px) {
+	aside {
+		left: 55%;
+	}
+}
+@media screen and (orientation: portrait) and 
+(max-width:1024px) {
+	aside {
+		left: 40%;
+	}
+}	
+
+/*
+	left: 65%;
+	width: 20%;
+*/
+
+/*Кнопка переключения темы*/
+.dark-theme .theme-button {
+	position: relative;
+	width: 20%;
+	bottom: 38px;
+	left: 83%;
+	border: 2px solid #FB6652;
+	border-radius: 12px;
+	background-color: rgb(44,45,47); 
+	color: white;
+}
+
+.dark-theme .theme-button:hover {
+	background-color: #FB6652;
+	color: black;
+}
+
+.light-theme .theme-button {
+	position: relative;
+	width: 20%;
+	bottom: 38px;
+	left: 83%;
+	border: 2px solid #FB6652;
+	border-radius: 12px;
+	background-color: white; 
+	color: black;
+}
+
+.light-theme .theme-button:hover {
+	background-color: #FB6652;
+	color: white;
+}
+/*
+.unscale .img-scale {transform: scale(1);}
+.scale .img-scale {transform: scale(2) translateX(100px);}
+*/
+
+.block-1 {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 12px;
+	box-shadow: 0 0.4em 0.6em #000;
+	float: left;
+	background-image: ; 
+	vertical-align: bottom;
+}
+
+.light-theme a:visited {color: blue;}
+.light-theme .silki a:active {color: #FB6652;}
+
+.block-2 {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 12px;
+	box-shadow: 0 0.4em 0.6em #000;
+	margin-left: 58%;
+	align-content: right;
+	vertical-align: bottom;
+	margin-bottom: 20px;
+}
